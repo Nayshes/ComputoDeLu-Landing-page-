@@ -342,7 +342,6 @@ header {
 .l_img {
     transform: translate(-30%, 0);
     opacity: 0;
-    transition: all 1s ease 0s;
 }
 
 .l_img._active {
@@ -363,7 +362,6 @@ header {
     color: #fff;
     transform: translate(0px, 50px);
     opacity: 0;
-    transition: all 1s ease .8s;
 }
 
 .r_text h2._active {
@@ -428,7 +426,7 @@ section.page_four {
 .page_four_subtitle._active {
     opacity: .5;
     transform: translate(0px, 0px);
-    transition: all 1s ease .9s;
+    transition: all 1s ease .5s;
 }
 
 .page_four_logo {
@@ -475,23 +473,22 @@ section.page_four {
 .procent_title._active {
     opacity: 1;
     transform: translate(0px, 0px);
-    transition: all 1s ease 1s;
 }
 
 .pc1._active {
-    transition: all 1s ease .6s;
+    transition: all 1s ease .4s;
 }
 
 .pc2._active {
-    transition: all 1s ease .8s;
+    transition: all 1s ease .6s;
 }
 
 .pc3._active {
-    transition: all 1s ease 1s;
+    transition: all 1s ease .8s;
 }
 
 .pc4._active {
-    transition: all 1s ease 1.2s;
+    transition: all 1s ease 1s;
 }
 
 .bar_1 {
@@ -586,7 +583,7 @@ section.page_five {
 
 .cards_anim_1 {
     opacity: 0;
-    transform: translate(-300px, 0);
+    transform: translate(-200px, 0);
 }
 
 .cards_anim_2 {
@@ -596,14 +593,14 @@ section.page_five {
 
 .cards_anim_3 {
     opacity: 0;
-    transform: translate(300px, 0);
+    transform: translate(200px, 0);
 }
 
 .cards_anim_1._active,
 .cards_anim_2._active,
 .cards_anim_3._active {
     opacity: 1;
-    transition: all 2s ease 0s;
+    transition: all 1s ease 0s;
     transform: translate(0, 0);
 }
 
@@ -719,7 +716,7 @@ section.page_seven {
 .page_seven_main_title._active {
     opacity: 1;
     transform: translate(0px, 0px);
-    transition: all 1s ease .8s;
+    transition: all 1s ease 0s;
 }
 
 .page_seven_subtitle {
@@ -736,7 +733,7 @@ section.page_seven {
 .page_seven_subtitle._active {
     opacity: .5;
     transform: translate(0px, 0px);
-    transition: all 1s ease 1s;
+    transition: all 1s ease .2s;
 }
 
 .page_seven_timeline_block {
@@ -930,7 +927,7 @@ section.page_eight {
 .teachers_2._active,
 .teachers_3._active {
     opacity: 1;
-    transition: all 1s ease 0s;
+    transition: all .8s ease 0s;
     transform: translate(0, 0);
 }
 
