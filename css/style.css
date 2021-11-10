@@ -661,6 +661,10 @@
         -moz-transform: translate(-50px, 0px);
         -ms-transform: translate(-50px, 0px);
         -o-transform: translate(-50px, 0px);
+        transition: all 1s ease .4s;
+        -webkit-transition: all 1s ease .4s;
+        -moz-transition: all 1s ease .4s;
+        -o-transition: all 1s ease .4s;
     }
     
     .bar_1._active {
@@ -670,10 +674,6 @@
         -moz-transform: translate(0px, 0px);
         -ms-transform: translate(0px, 0px);
         -o-transform: translate(0px, 0px);
-        transition: all 1s ease .4s;
-        -webkit-transition: all 1s ease .4s;
-        -moz-transition: all 1s ease .4s;
-        -o-transition: all 1s ease .4s;
     }
     
     .bar_2 {
@@ -686,6 +686,10 @@
         -moz-transform: translate(-40px, 0px);
         -ms-transform: translate(-40px, 0px);
         -o-transform: translate(-40px, 0px);
+        transition: all 1s ease .6s;
+        -webkit-transition: all 1s ease .6s;
+        -moz-transition: all 1s ease .6s;
+        -o-transition: all 1s ease .6s;
     }
     
     .bar_2._active {
@@ -695,10 +699,6 @@
         -moz-transform: translate(0px, 0px);
         -ms-transform: translate(0px, 0px);
         -o-transform: translate(0px, 0px);
-        transition: all 1s ease .6s;
-        -webkit-transition: all 1s ease .6s;
-        -moz-transition: all 1s ease .6s;
-        -o-transition: all 1s ease .6s;
     }
     
     .bar_3 {
@@ -711,6 +711,10 @@
         -moz-transform: translate(-30px, 0px);
         -ms-transform: translate(-30px, 0px);
         -o-transform: translate(-30px, 0px);
+        transition: all 1s ease .8s;
+        -webkit-transition: all 1s ease .8s;
+        -moz-transition: all 1s ease .8s;
+        -o-transition: all 1s ease .8s;
     }
     
     .bar_3._active {
@@ -720,10 +724,6 @@
         -moz-transform: translate(0px, 0px);
         -ms-transform: translate(0px, 0px);
         -o-transform: translate(0px, 0px);
-        transition: all 1s ease .8s;
-        -webkit-transition: all 1s ease .8s;
-        -moz-transition: all 1s ease .8s;
-        -o-transition: all 1s ease .8s;
     }
     
     .bar_4 {
@@ -736,6 +736,10 @@
         -moz-transform: translate(-20px, 0px);
         -ms-transform: translate(-20px, 0px);
         -o-transform: translate(-20px, 0px);
+        transition: all 1s ease 1s;
+        -webkit-transition: all 1s ease 1s;
+        -moz-transition: all 1s ease 1s;
+        -o-transition: all 1s ease 1s;
     }
     
     .bar_4._active {
@@ -745,10 +749,6 @@
         -moz-transform: translate(0px, 0px);
         -ms-transform: translate(0px, 0px);
         -o-transform: translate(0px, 0px);
-        transition: all 1s ease 1s;
-        -webkit-transition: all 1s ease 1s;
-        -moz-transition: all 1s ease 1s;
-        -o-transition: all 1s ease 1s;
     }
     
     .under_text {
