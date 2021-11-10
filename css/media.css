@@ -95,6 +95,8 @@
     }
 }
 
+@media (min-width: 1000px) {}
+
 @media (max-width: 1000px) {
     .page_eight_teachers {
         flex-wrap: wrap;
@@ -132,17 +134,14 @@
         font-size: 18px;
         padding: 130px 10px 40px 10px;
     }
-    .pc1._active {
-        transition: all .9s ease .5s;
-    }
-    .pc2._active {
-        transition: all .9s ease .5s;
-    }
-    .pc3._active {
-        transition: all .9s ease .5s;
-    }
+    .pc1._active,
+    .pc2._active,
+    .pc3._active,
     .pc4._active {
         transition: all .9s ease .5s;
+        -webkit-transition: all .9s ease .5s;
+        -moz-transition: all .9s ease .5s;
+        -o-transition: all .9s ease .5s;
     }
     .bar_1._active,
     .bar_2._active,
@@ -151,7 +150,14 @@
         opacity: 1;
         min-width: 324px;
         transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
         transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
     }
     .bar_1,
     .bar_2,
@@ -171,14 +177,26 @@
     }
     .header_burger_icon._active span {
         transform: scale(0) translate(0px, -50%);
+        -webkit-transform: scale(0) translate(0px, -50%);
+        -moz-transform: scale(0) translate(0px, -50%);
+        -ms-transform: scale(0) translate(0px, -50%);
+        -o-transform: scale(0) translate(0px, -50%);
     }
     .header_burger_icon._active::before {
         top: 50%;
         transform: rotate(-50deg) translate(0px, -50%);
+        -webkit-transform: rotate(-50deg) translate(0px, -50%);
+        -moz-transform: rotate(-50deg) translate(0px, -50%);
+        -ms-transform: rotate(-50deg) translate(0px, -50%);
+        -o-transform: rotate(-50deg) translate(0px, -50%);
     }
     .header_burger_icon._active::after {
         bottom: 50%;
         transform: rotate(50deg) translate(0px, 50%);
+        -webkit-transform: rotate(50deg) translate(0px, 50%);
+        -moz-transform: rotate(50deg) translate(0px, 50%);
+        -ms-transform: rotate(50deg) translate(0px, 50%);
+        -o-transform: rotate(50deg) translate(0px, 50%);
     }
     .header_burger_icon span,
     .header_burger_icon::before,
@@ -189,6 +207,9 @@
         height: 10%;
         width: 100%;
         transition: all .3s ease 0s;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
         background-color: #fff;
     }
     .header_burger_icon::before,
@@ -204,6 +225,10 @@
     .header_burger_icon span {
         top: 50%;
         transform: scale(1) translate(0px, -50%);
+        -webkit-transform: scale(1) translate(0px, -50%);
+        -moz-transform: scale(1) translate(0px, -50%);
+        -ms-transform: scale(1) translate(0px, -50%);
+        -o-transform: scale(1) translate(0px, -50%);
     }
     .logo {
         z-index: 3;
@@ -223,6 +248,9 @@
         background-color: rgba(0, 0, 0, 0.95);
         padding: 100px 30px 30px 30px;
         transition: left .3s ease-out;
+        -webkit-transition: left .3s ease-out;
+        -moz-transition: left .3s ease-out;
+        -o-transition: left .3s ease-out;
         overflow: auto;
     }
     .menu::before {
@@ -235,6 +263,9 @@
         background-color: rgb(27, 27, 27);
         z-index: 3;
         transition: left .3s ease-out;
+        -webkit-transition: left .3s ease-out;
+        -moz-transition: left .3s ease-out;
+        -o-transition: left .3s ease-out;
     }
     .menu a {
         display: flex;
@@ -289,6 +320,9 @@
         padding: 15px 25px;
         margin: 50px 30px 0 0;
         transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
     }
     .dark_header_for_mobile {
         background-color: rgb(0, 0, 0, .5);
@@ -334,6 +368,9 @@
         padding: 10px 20px;
         margin: 40px 20px 0 0;
         transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
     }
     .time h3 {
         font-size: 28px;
@@ -483,6 +520,9 @@
         padding: 5px 15px;
         margin: 40px 20px 0 0;
         transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
     }
     .time h3 {
         font-size: 26px;
