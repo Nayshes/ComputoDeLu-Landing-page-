@@ -686,10 +686,6 @@
         -moz-transform: translate(-40px, 0px);
         -ms-transform: translate(-40px, 0px);
         -o-transform: translate(-40px, 0px);
-        transition: all 1s ease .4s;
-        -webkit-transition: all 1s ease .4s;
-        -moz-transition: all 1s ease .4s;
-        -o-transition: all 1s ease .4s;
     }
     
     .bar_2._active {
@@ -750,7 +746,7 @@
         -ms-transform: translate(0px, 0px);
         -o-transform: translate(0px, 0px);
         transition: all 1s ease 1s;
-        -webkit-transition: all 1s ease .1s;
+        -webkit-transition: all 1s ease 1s;
         -moz-transition: all 1s ease 1s;
         -o-transition: all 1s ease 1s;
     }
