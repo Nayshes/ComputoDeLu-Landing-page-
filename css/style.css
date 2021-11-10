@@ -95,7 +95,7 @@
     
     header {
         /*height: 830px;*/
-        background: url(../img/header_bg.png) no-repeat;
+        background: url(../img/header_bg.avif) no-repeat;
         background-size: 100%;
         background-position: center;
     }
@@ -406,7 +406,7 @@
     }
     
     .all_section_bg {
-        background-image: url(../img/bg.png);
+        background-image: url(../img/bg.avif);
     }
     
     .third_section {
@@ -875,12 +875,7 @@
     }
     
     .partners_block {
-        font-display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
         text-align: center;
-        align-items: center;
-        flex: 1 1 auto;
     }
     
     .partner {
