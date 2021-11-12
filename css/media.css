@@ -95,8 +95,6 @@
     }
 }
 
-@media (min-width: 1000px) {}
-
 @media (max-width: 1000px) {
     .page_eight_teachers {
         flex-wrap: wrap;

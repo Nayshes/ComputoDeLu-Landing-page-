@@ -31,11 +31,11 @@
                         <a href="#teachers">Преподаватели</a>
                         <a href="#mailning">Рассылка</a>
                         <a href="#contacts">Контакты</a>
-                        <a class="burger_auth" href="">Личный кабинет</a>
+                        <a class="burger_auth popup-link">Личный кабинет</a>
                     </div>
 
                     <div class="auth">
-                        <a href="">Зайти в кабинет</a>
+                        <a class="popup-link">Зайти в кабинет</a>
                     </div>
 
 
@@ -362,10 +362,10 @@
             <!-- container -->
         </div>
         <!-- all_section_bg -->
-        <div class="popup_menu">
+        <div id="popup_menu" class="popup_menu">
             <section class="popup">
                 <div class="popup__container">
-                    <a href="" class="popup_close">&times</a>
+                    <a href="#" class="popup_close close-popup">&times</a>
                     <div class="user signinBx">
                         <div class="imgBx"><img src="img/pc/first.avif" alt=""></div>
                         <div class="formBx">
@@ -374,7 +374,7 @@
                                 <input type="text" placeholder="Username">
                                 <input type="password" placeholder="Password">
                                 <input type="submit" value="Войти">
-                                <p class="signup">Нету аккаунта? <a href="#" onclick="toggleForm();">Зарегистрироваться</a></p>
+                                <p class="signup">Нету аккаунта? <a onclick="toggleForm();">Зарегистрироваться</a></p>
                             </form>
                         </div>
                     </div>
@@ -388,7 +388,7 @@
                                 <input type="password" placeholder="Create Password">
                                 <input type="password" placeholder="Confirm Password">
                                 <input type="submit" value="Подтвердить">
-                                <p class="signup">Уже есть аккаунт? <a href="#" onclick="toggleForm();">Авторизация</a></p>
+                                <p class="signup">Уже есть аккаунт? <a onclick="toggleForm();">Авторизация</a></p>
                             </form>
                         </div>
                         <div class="imgBx"><img src="img/pc/third.avif" alt=""></div>
