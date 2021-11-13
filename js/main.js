@@ -152,7 +152,6 @@ function popupOpen(curentPopup) {
 
 function bodyLock() {
     const lockPaddingValue = window.innerWidth - document.querySelector('.wraper').offsetWidth + 'px';
-    console.log(document.querySelector('.wraper').offsetWidth);
     body.style.paddingRight = lockPaddingValue;
     body.classList.add('lock');
     unlock = false;
