@@ -161,6 +161,9 @@ if (popupCloseIcon.length > 0) {
             curentPopup.classList.remove('open');
             body.classList.remove('lock');
             body.style.paddingRight = '0px';
+            mainLogo.style.display = "inline-block";
+            iconMenu.style.display = "block";
+
         });
     }
 }
@@ -174,11 +177,18 @@ function popupOpen(curentPopup) {
             bodyLock();
         }
         curentPopup.classList.add('open');
+        const popupWidthControl = window.innerWidth;
+        if (popupWidthControl < 1001) {
+            iconMenu.style.display = "none";
+            mainLogo.style.display = "none";
+        }
         curentPopup.addEventListener("click", function(e) {
             if (!e.target.closest('.popup__container')) {
                 curentPopup.classList.remove('open');
                 body.classList.remove('lock');
                 body.style.paddingRight = '0px';
+                mainLogo.style.display = "inline-block";
+                iconMenu.style.display = "block";
             }
         });
     }
