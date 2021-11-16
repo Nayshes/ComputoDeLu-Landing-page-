@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
 </head>
 
 <body>
@@ -26,17 +25,17 @@
                     </div>
                     <div class="menu">
 
-                        <a href="#main">Главная</a>
-                        <a href="#courses">Курсы</a>
-                        <a href="#timeplan">Расписание</a>
-                        <a href="#teachers">Преподаватели</a>
-                        <a href="#mailning">Рассылка</a>
-                        <a href="#contacts">Контакты</a>
-                        <a class="burger_auth popup-link">Личный кабинет</a>
+                        <a class="meny_link" data-goto=".menu" href="#">Главная</a>
+                        <a class="meny_link" data-goto=".second_section" href="#">Курсы</a>
+                        <a class="meny_link" data-goto=".page_seven" href="#">Расписание</a>
+                        <a class="meny_link" data-goto=".page_eight" href="#">Преподаватели</a>
+                        <a class="meny_link" data-goto=".page_nine" href="#">Рассылка</a>
+                        <a class="meny_link" data-goto=".page_nine_title_block" href="#">Контакты</a>
+                        <a class="burger_auth popup-link meny_link" data-goto=".popup" href="#">Личный кабинет</a>
                     </div>
 
                     <div class="auth">
-                        <a class="popup-link">Зайти в кабинет</a>
+                        <a data-goto=".popup" class="popup-link meny_link" href="#">Зайти в кабинет</a>
                     </div>
 
 
@@ -81,7 +80,7 @@
             <!-- dark_header -->
         </header>
 
-        <div id="courses" class="second_section">
+        <div class="second_section">
             <div class="container">
                 <div class="second_content">
 
@@ -241,7 +240,7 @@
 
                 </section>
 
-                <section id="timeplan" class="page_seven">
+                <section class="page_seven">
                     <div class="page_seven_title">
                         <img src="img/elip3.png" alt="" class="page_seven_img _anim-items">
                         <h2 class="page_seven_main_title _anim-items">Программа обучения</h2>
@@ -304,7 +303,7 @@
 
                 </section>
 
-                <section id="teachers" class="page_eight">
+                <section class="page_eight">
                     <div class="page_eight title_and_logo">
                         <img src="img/elip4.png" alt="" class="page_eight page_four_logo _anim-items">
                         <h2 class="page_eight main_title _anim-items">Ваши преподаватели</h2>
@@ -337,8 +336,8 @@
 
                 </section>
 
-                <section id="mailning" class="page_nine">
-                    <div id="contacts" class="page_nine_title_block">
+                <section class="page_nine">
+                    <div class="page_nine_title_block">
                         <h2 class="page_nine_title">Статьи каждую неделю</h2>
                         <div class="page_nine_subtitle">Не забывайте подписываться на рассылку, чтобы получать оповещение о скидках</div>
                     </div>
