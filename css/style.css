@@ -900,10 +900,10 @@
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -o-transform: scale(1);
-        transition: all 1s ease 0.4s;
-        -webkit-transition: all 1s ease 0.4s;
-        -moz-transition: all 1s ease 0.4s;
-        -o-transition: all 1s ease 0.4s;
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+        -moz-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
     }
     
     .partner:last-child {
