@@ -1434,9 +1434,11 @@
         transition: all .8s ease 0s;
         opacity: 0;
         transform: translate(0px, -30%);
+        z-index: 11;
     }
     
     section.popup {
+        z-index: 10;
         position: relative;
         min-height: 100vh;
         background-color: rgba(27, 68, 163, 0.3);
