@@ -88,7 +88,7 @@ if (animItems.length > 0) {
 
 // ТАЙМЕР
 
-let target_date = new Date('2021, 11, 24').getTime();
+let target_date = new Date('2022, 01, 01').getTime();
 let days, hours, minutes, seconds;
 const time_days = document.getElementById("days");
 const time_hours = document.getElementById("hours");
